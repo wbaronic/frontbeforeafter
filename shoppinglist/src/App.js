@@ -22,7 +22,7 @@ function App() {
       <AppBar position='static'>
         <toolbar>
           <Typography variant='h6'>
-            CarShop
+            Antes/ Depois
           </Typography>
         </toolbar>
       </AppBar>

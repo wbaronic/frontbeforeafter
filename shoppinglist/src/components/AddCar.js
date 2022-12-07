@@ -55,11 +55,11 @@ function AddCar(props) {
   
   return(
     <div>
-      <Button variant="contained" onClick={handleClickOpen}>New Car</Button>
+      <Button variant="contained" onClick={handleClickOpen}>Novas medidas</Button>
     
     
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>New car</DialogTitle>
+        <DialogTitle>Novas medidads</DialogTitle>
         <DialogContent>
         <Stack spacing={2} mt={1}>
              
@@ -80,6 +80,12 @@ function AddCar(props) {
               <TextField label="kg" name="kg" 
                   autoFocus
                 variant="standard" value={car.kg} 
+                onChange={handleChange}/>
+
+
+          <TextField label="height" name="height" 
+                  autoFocus
+                variant="standard" value={car.height} 
                 onChange={handleChange}/>
              
               <TextField label="water" name="water" 

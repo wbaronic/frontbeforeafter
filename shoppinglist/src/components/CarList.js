@@ -101,12 +101,17 @@ function Carlist() {
    
   const columns = [
     {field: 'date', headerName: 'Date', width: 200},
+    {field: 'height', headerName: 'height', width: 150},
     {field: 'kg', headerName: 'kg', width: 200},
+    {field: 'pesoDesejado', headerName: 'pesoDesejado', width: 150},
+
+    {field: 'imc', headerName: 'imc', width: 150},
     {field: 'fat', headerName: 'Fat', width: 200},
     {field: 'water', headerName: 'Water', width: 150},
     {field: 'muscle', headerName: 'Muscle', width: 150},
     {field: 'kcal', headerName: 'Kcal', width: 150},
     {field: 'bone', headerName: 'Bone', width: 150},
+
 
     {
       field: '_links.car.href', 
